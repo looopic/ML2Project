@@ -12,9 +12,12 @@ The data is from the TextOCR dataset on kaggle (https://www.kaggle.com/datasets/
 
 ## Training
 The model is self trained, but I was following some steps of a tutorial available at medium.com (https://medium.com/geekculture/building-a-complete-ocr-engine-from-scratch-in-python-be1fd184753b).
+Due to some difficulties during the training, I've uploaded a model that only was trained with 2 epochs. The whole model is still training while writing this. If the modell isn't trained fully at the deadline, you could contact me and I'll send it to you.
 
 ## Interpretation and validation
 I was not able to commpare my model with a pretrained one due to the complexity of the models. I was not able to find a model that would work exactly like mine. They either could only recognize single letters or they would need an additional model. I also tried using pytesseract, but I was not able to write a functioning evaluation code snippet for that.
+
+Due to the low amount of epochs and the limited amount of memory, the model performs quite poorly.
 
 ## Notebook
 The notebook should be fully reproducable but the training needs to be run on colab pro. It uses to much memory for the free version.
