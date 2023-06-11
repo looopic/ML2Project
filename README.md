@@ -12,7 +12,9 @@ The data is from the TextOCR dataset on kaggle (https://www.kaggle.com/datasets/
 
 ## Training
 The model is self trained, but I was following some steps of a tutorial available at medium.com (https://medium.com/geekculture/building-a-complete-ocr-engine-from-scratch-in-python-be1fd184753b).
+
 I wasn't able to upload the model via GIT LFS. You can access it via my Google Drive Folder https://drive.google.com/drive/folders/15e5e3w562ZaAuFRPEBItF7UUiJivi21Z?usp=sharing
+ocr_model.h5 is the newest and best model. You can also try the ocr_model_trained.h5 but that's only trained with 2 Epochs.
 
 ## Interpretation and validation
 I was not able to commpare my model with a pretrained one due to the complexity of the models. I was not able to find a model that would work exactly like mine. They either could only recognize single letters or they would need an additional model. I also tried using pytesseract, but I was not able to write a functioning evaluation code snippet for that.
